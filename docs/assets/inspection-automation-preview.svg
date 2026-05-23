@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Notebook inspection automation GUI preview">
+  <rect width="1280" height="720" fill="#f5f7fa"/>
+  <text x="40" y="54" font-family="Malgun Gothic, Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2937">노트북 검수 자동화 프로그램</text>
+  <text x="40" y="82" font-family="Malgun Gothic, Arial, sans-serif" font-size="15" fill="#667085">기본 정보 입력 후 검수 항목을 선택하면 자동으로 판정되고 CSV/PDF로 저장됩니다.</text>
+  <rect x="40" y="112" width="560" height="250" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="62" y="146" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#344054">기본 정보</text>
+  <g font-family="Malgun Gothic, Arial, sans-serif" font-size="14" fill="#344054">
+    <text x="64" y="188">검수자</text><rect x="128" y="168" width="160" height="28" fill="#f9fafb" stroke="#d0d5dd"/><text x="140" y="188" fill="#667085">홍길동</text>
+    <text x="328" y="188">등급</text><rect x="380" y="168" width="160" height="28" fill="#f9fafb" stroke="#d0d5dd"/><text x="392" y="188" fill="#667085">A</text>
+    <text x="64" y="232">모델명</text><rect x="128" y="212" width="160" height="28" fill="#f9fafb" stroke="#d0d5dd"/><text x="140" y="232" fill="#667085">SampleBook 14</text>
+    <text x="328" y="232">배터리</text><rect x="380" y="212" width="160" height="28" fill="#f9fafb" stroke="#d0d5dd"/><text x="392" y="232" fill="#667085">92%</text>
+    <text x="64" y="276">CPU</text><rect x="128" y="256" width="412" height="28" fill="#f9fafb" stroke="#d0d5dd"/><text x="140" y="276" fill="#667085">Intel Core i5 / 16GB RAM / 512GB SSD</text>
+    <text x="64" y="320">비고</text><rect x="128" y="300" width="412" height="36" fill="#f9fafb" stroke="#d0d5dd"/><text x="140" y="323" fill="#667085">자동진단 정상, 외관 확인 완료</text>
+  </g>
+  <rect x="630" y="112" width="590" height="250" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="652" y="146" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#344054">검수 항목</text>
+  <g font-family="Malgun Gothic, Arial, sans-serif" font-size="15" fill="#344054">
+    <text x="654" y="188">부팅</text><rect x="730" y="168" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="789" y="189" fill="#067647" text-anchor="middle">정상</text>
+    <text x="654" y="232">액정</text><rect x="730" y="212" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="789" y="233" fill="#067647" text-anchor="middle">정상</text>
+    <text x="654" y="276">키보드</text><rect x="730" y="256" width="118" height="30" fill="#fffaeb" stroke="#fedf89"/><text x="789" y="277" fill="#b54708" text-anchor="middle">확인필요</text>
+    <text x="654" y="320">포트</text><rect x="730" y="300" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="789" y="321" fill="#067647" text-anchor="middle">정상</text>
+    <text x="910" y="188">와이파이</text><rect x="998" y="168" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="1057" y="189" fill="#067647" text-anchor="middle">정상</text>
+    <text x="910" y="232">카메라</text><rect x="998" y="212" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="1057" y="233" fill="#067647" text-anchor="middle">정상</text>
+    <text x="910" y="276">스피커</text><rect x="998" y="256" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="1057" y="277" fill="#067647" text-anchor="middle">정상</text>
+    <text x="910" y="320">충전기</text><rect x="998" y="300" width="118" height="30" fill="#ecfdf3" stroke="#75e0a7"/><text x="1057" y="321" fill="#067647" text-anchor="middle">정상</text>
+  </g>
+  <rect x="40" y="388" width="370" height="104" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="62" y="424" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#344054">자동 판정</text>
+  <text x="62" y="464" font-family="Malgun Gothic, Arial, sans-serif" font-size="32" font-weight="700" fill="#b54708">재검수</text>
+  <text x="178" y="464" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#667085">확인필요 항목 또는 배터리 기준 미달 시 반영</text>
+  <rect x="430" y="388" width="790" height="104" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="452" y="424" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#344054">자동 진단 리포트</text>
+  <text x="452" y="456" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" fill="#475467">모델/시리얼/CPU/RAM/SSD/배터리/장치 인식 여부를 자동 수집하고 판정 근거를 기록합니다.</text>
+  <rect x="40" y="520" width="1180" height="150" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="62" y="554" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#344054">검수 이력</text>
+  <rect x="62" y="576" width="1116" height="32" fill="#eef2f6"/>
+  <g font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#344054">
+    <text x="82" y="597" font-weight="700">검수일시</text><text x="250" y="597" font-weight="700">모델명</text><text x="430" y="597" font-weight="700">배터리 효율</text><text x="610" y="597" font-weight="700">자동 판정</text><text x="780" y="597" font-weight="700">비고</text>
+    <text x="82" y="636">2026-05-23 14:20</text><text x="250" y="636">SampleBook 14</text><text x="430" y="636">86%</text><text x="610" y="636" fill="#b54708">재검수</text><text x="780" y="636">키보드 확인필요, PDF 리포트 생성</text>
+  </g>
+</svg>

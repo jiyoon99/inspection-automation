@@ -29,6 +29,12 @@ Windows PowerShell 기반의 노트북 검수 자동화 GUI입니다.
 - CSV 이력 저장
 - PDF 리포트 출력
 
+## Preview
+
+![Notebook Inspection Automation GUI preview](docs/assets/inspection-automation-preview.svg)
+
+> 공개 저장소용 샘플 화면입니다. 실제 시리얼, 검수 이력, 리포트 파일은 포함하지 않았습니다.
+
 ## Why I Built This
 
 노트북 검수는 같은 항목을 반복해서 확인하는 일이 많습니다. 장비 기본 정보, 배터리 상태, 장치 인식 여부, 포트 상태, 키보드 입력 상태를 사람이 하나씩 기록하면 누락이 생기기 쉽고 시간이 오래 걸립니다.
