@@ -4,6 +4,13 @@ Windows PowerShell 기반의 노트북 검수 자동화 GUI입니다.
 
 중고/업무용 노트북을 검수할 때 모델명, 시리얼, CPU, RAM/SSD, 배터리 상태, 장치 인식 여부, 포트 상태, 키보드 입력 상태를 반복해서 확인해야 하는 불편함을 줄이기 위해 만든 업무 자동화 도구입니다.
 
+## What This Project Shows
+
+- 반복 검수 업무를 GUI 입력, 자동 진단, 최종 판정, 리포트 저장 흐름으로 구조화
+- WMI/CIM, `powercfg`, 장치 조회를 활용한 Windows 하드웨어 정보 수집
+- 자동 진단 결과와 작업자 수동 체크를 함께 반영하는 판정 규칙 설계
+- 실제 시리얼, 검수자명, 리포트 파일을 공개 저장소에서 제외한 데이터 관리
+
 ## Project Summary
 
 | Item | Description |
@@ -106,12 +113,11 @@ inspection-automation/
 └── .gitignore
 ```
 
-## What I Learned
+## Engineering Notes
 
-- PowerShell Windows Forms로 업무용 GUI를 만드는 방식
-- WMI/CIM과 Windows 명령을 이용해 하드웨어 정보를 수집하는 방법
-- 자동 진단 결과와 수동 검수 결과를 함께 판정하는 구조
-- 업무 도구에서는 저장 이력, 리포트 출력, 예외 처리, 개인정보 제외가 중요하다는 점
+- 자동 조회 가능한 정보와 사람이 직접 확인해야 하는 항목을 분리했습니다.
+- 검수 결과를 `정상 / 주의 / 불량`과 `합격 / 재검수 / 불합격`으로 나누어 판정 흐름을 단순화했습니다.
+- 로컬에 생성되는 검수 이력과 리포트는 `.gitignore`로 관리해 공개 저장소에 포함되지 않게 했습니다.
 
 ## Safety Notes
 
